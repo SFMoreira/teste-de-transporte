@@ -2,8 +2,8 @@ package aplication;
 
 public class Program {
 
-	private void mai() {
-		// TODO Auto-generated method stub
-
+	public static void main(String[] args) {
+		
+		System.out.println("Tamo tentando fazer funcionar");
 	}
 }
