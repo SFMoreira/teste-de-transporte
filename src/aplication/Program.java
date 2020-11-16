@@ -1,11 +1,18 @@
 package aplication;
 
+import java.util.Date;
+
+import javax.swing.JOptionPane;
+
+import entidades.Pedido;
+import entidades.enums.StatusDeCompra;
+
 public class Program {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Tamo tentando fazer funcionar");
-		System.out.println("Vamo fazer pra apagar depois");
-		System.out.println("Rapaz, eu fiz, mas vou desfazer");
+		Pedido n = new Pedido(1080, new Date(), StatusDeCompra.PagamentoPendente);
+		
+		JOptionPane.showMessageDialog(null, n);
 	}
 }
